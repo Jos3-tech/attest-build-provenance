@@ -65,7 +65,9 @@ attest:
 
 ### Inputs
 
-See [action.yml](action.yml)
+See [action.yml](action.yml)- name: Attest Build Provenance
+  uses: actions/attest-build-provenance@v2.3.0
+
 
 ```yaml
 - uses: actions/attest-build-provenance@v2
